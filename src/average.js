@@ -18,14 +18,14 @@ const average = (array) => {
   }
   for (let index = 0; index < array.length; index += 1) {
     if (typeof array[index] === 'string') {
-      return undefined
+      return undefined;
     }
     soma += array[index];
   }
-   let media = (soma / array.length)
-  return Math.round(media)
+   let media = (soma / array.length);
+  return Math.round(media);
 };
 
-average([-11, 2, 5])
+average([-11, 2, 5]);
 
 module.exports = average;
