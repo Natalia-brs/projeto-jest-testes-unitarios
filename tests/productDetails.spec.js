@@ -35,7 +35,7 @@ describe('6 - Implemente os casos de teste para a função `productDetails`', ()
     expect(typeof productDetails('Alcool gel', 'Máscara')).toBe('object');
     expect(productDetails('Alcool gel', 'Máscara').length).toBe(2);
     expect(typeof Object.values(productDetails('Alcool gel', 'Máscara'))).toBe('object');
-    expect(productDetails( 'Máscara', 'Alcool gel' )).not.toBe(['Alcool gel', 'Máscara'][1]);
+    expect(productDetails( 'Máscara', 'Alcool gel' )).not.toBe(['Alcool gel', 'Máscara']);
     expect(productDetails('Alcool gel', 'Máscara')[0].details.productId || productDetails('Alcool gel', 'Máscara')[1].details.productId).toEqual(expect.stringContaining('123'));
   });
 });
