@@ -40,25 +40,22 @@ const calculator = (number1, number2) => {
     mult: number1 * number2,
     div: number1 / number2,
     sub: number1 - number2,
-  }
+  };
   obj.div = Math.floor(number1 / number2);
   return obj;
 };
 
-calculator(1,2);
+calculator(1, 2);
 
 const arrayGenerator = (type, object) => {
   let array = [];
-  if( type === 'keys') {
+  if (type === 'keys') {
     array = Object.keys(object);
-  }
-  else if (type === 'values') {
+  } else if (type === 'values') {
     array = Object.values(object);
-  }
-  else if (type === 'entries') {
+  } else if (type === 'entries') {
     array = Object.entries(object);
-  }
-  else {
+  } else {
     array = undefined;
   }
   return array;
