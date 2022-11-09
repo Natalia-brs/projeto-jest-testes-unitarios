@@ -1,10 +1,16 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Boas-vindas ao repositório do projeto ES6 e Testes Unitários realizado na Trybe durante o modulo de Fundamentos! 
+
+# Requisitos Obrigatórios
+
+<ol>
+<li>Implemente a função average</li>
+<li>Implemente os casos de teste para a função numbers</li>
+<li>Implemente a função vqv</li>
+<li>Implemente os casos de teste para a função circle</li>
+<li>Implemente a função createStudent</li>
+<li>Implemente os casos de teste para a função productDetails</li>
+<li>Implemente as funções calculator e arrayGenerator</li>
+<li>Implemente a função myCounter</li>
+<li>Implemente os casos de teste para a função getCharacter</li>
+<li>Implemente a função createMenu, bem como seus casos de teste</li>
+</ol>
