@@ -14,3 +14,10 @@
 <li>Implemente os casos de teste para a função getCharacter</li>
 <li>Implemente a função createMenu, bem como seus casos de teste</li>
 </ol>
+
+# Skills Utilizadas
+
+- Escrever testes para funções assíncronas;
+- Aplicar os seus conhecimentos acerca de testes utilizando o Jest;
+- "Mockar" funções;
+- "Mockar" APIs;
